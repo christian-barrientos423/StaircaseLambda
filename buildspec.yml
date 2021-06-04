@@ -7,7 +7,6 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Compiling the Python code...
-      - pip install requests -t .
   post_build:
     commands:
       - echo Build completed on `date`

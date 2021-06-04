@@ -4,6 +4,7 @@ phases:
     runtime-versions:
       python: 3.7
   build:
+    on-failure: ABORT
     commands:
       - echo Build started on `date`
       - pip install unittest2

@@ -7,6 +7,7 @@ phases:
     commands:
       - echo Build started on `date`
       - pip install unittest2
+      - pip install boto3
       - python -m unittest discover tests
       - echo Compiling the Python code...
   post_build:

@@ -46,5 +46,5 @@ def lambda_handler(event, context):
         print('Crawler already running')
     return {
         'statusCode': 200,
-        'body': json.dumps('ABORTWorld')
+        'body': json.dumps('HelloWorld')
     }
